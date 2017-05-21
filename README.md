@@ -2,6 +2,8 @@
 
 Heroku deployment of VuePoint Project
 
+We had difficulty in posting to Heroku. The general process was to utilize webpack with Babel transpiling from ES6 to ES5. We created a dist subdirectory with what we though was all the requisite files. But we were unsuccessful in getting the full app to run remotely. To tell the truth, Heroku is not our preferred platform given its limited support of SQLite3. AWS is the more likely location for future hosting of the fully developed app. This repository shows the work as it stands for Heroku posting
+
 
 ## Original Deploy Source Info from Sagar Jauhari
 
